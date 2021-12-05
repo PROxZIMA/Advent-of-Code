@@ -81,7 +81,7 @@ def testcase():
     board_input = open(os.path.join(os.path.dirname(__file__), "day-4-test.txt")).read()
     board_input = board_input.split('\n')
 
-    # assert part1(board_input) == 4512
+    assert part1(board_input) == 4512
     assert part2(board_input) == 1924
 
 
